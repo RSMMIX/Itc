@@ -224,28 +224,35 @@ void clocks()
 
 }
 
-void UpdateTime() {
+void UpdateTime() 
+{
   Clock.secs++;
-  if (Clock.secs > 59) {
+  if (Clock.secs > 59) 
+  {
     Clock.secs = 0; Clock.mins++;
   }
-  if (Clock.mins > 59) {
+  if (Clock.mins > 59) 
+  {
     Clock.mins = 0; Clock.hours++;
   }
-  if (Clock.hours > 23) {
+  if (Clock.hours > 23) 
+  {
     Clock.hours = 0;
   }
   if(startCountdown)
   {
     countDown.secs--;
   }
-  if (countDown.secs < 0) {
+  if (countDown.secs < 0) 
+  {
     countDown.secs = 59; countDown.mins--;
   }
-  if (countDown.mins < 0) {
+  if (countDown.mins < 0) 
+  {
     countDown.mins = 59; countDown.hours--;
   }
-  if (countDown.hours < 0) {
+  if (countDown.hours < 0) 
+  {
     countDown.hours = 99;
   }
   if(countDown.secs == 0 && countDown.mins == 0 && countDown.hours == 0)
