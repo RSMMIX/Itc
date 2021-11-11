@@ -23,7 +23,9 @@
                 "c:\\program files (x86)\\arduino\\hardware\\tools\\avr\\lib\\gcc\\avr\\7.3.0\\include",
                 "c:\\program files (x86)\\arduino\\hardware\\tools\\avr\\lib\\gcc\\avr\\7.3.0\\include-fixed",
                 "c:\\program files (x86)\\arduino\\hardware\\tools\\avr\\avr\\include",
-                "C:\\Users\\pawn\\OneDrive\\เอกสาร\\Arduino\\libraries\\LedControl\\src"
+                "C:\\Users\\pawn\\OneDrive\\เอกสาร\\Arduino\\libraries\\LedControl\\src",
+                "C:\\Users\\pawn\\OneDrive\\เอกสาร\\Arduino\\libraries\\LedControl",
+                "C:\\Users\\pawn\\OneDrive\\เอกสาร\\Arduino\\libraries\\TimerOne"
             ],
             "forcedInclude": [
                 "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\cores\\arduino\\Arduino.h"
